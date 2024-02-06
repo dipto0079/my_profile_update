@@ -526,15 +526,14 @@ In addition to my technical skills, I am also a strong communicator and collabor
         });
     });
 </script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0R1LMPX82B"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LD50NL71XY"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-0R1LMPX82B');
+    gtag('config', 'G-LD50NL71XY');
 </script>
 </body>
 
