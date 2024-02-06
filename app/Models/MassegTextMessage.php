@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class MassegTextMessage extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'email', 'subject', 'comments',];
+    protected $fillable = ['name', 'email', 'subject', 'comments','status'];
 }

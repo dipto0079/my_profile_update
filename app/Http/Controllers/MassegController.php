@@ -14,7 +14,7 @@ class MassegController extends Controller
                 'email' => $request->email,
                 'subject' => $request->subject,
                 'comments' => $request->comments,
-
+                'status' => 1,
             ]
         );
         return back();

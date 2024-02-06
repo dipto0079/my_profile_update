@@ -22,6 +22,7 @@ use App\Http\Controllers\FontController;
 //Route::get('/', function () {
 //    return view('welcome');
 //});
+Route::get('logs', [\Rap2hpoutre\LaravelLogViewer\LogViewerController::class, 'index']);
 Route::get('/', [FontController::class, 'index'])->name('me');
 Route::get('/Blog', [FontController::class, 'blog'])->name('me.Blog');
 Route::get('blog/{slug}',[FontController::class,'singleBlog'])->name('single.blog');
